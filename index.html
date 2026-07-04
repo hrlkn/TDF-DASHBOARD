@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Tour Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🚴 Tour de France Dashboard</h1>
+</header>
+
+<div class="controls">
+  <button onclick="prevStage()">⬅️</button>
+  <select id="stageSelect" onchange="loadStage(this.value)"></select>
+  <button onclick="nextStage()">➡️</button>
+</div>
+
+<div id="stageInfo"></div>
+
+<div class="cards">
+  <div class="card">
+    <h2>🟡 Gesamtwertung</h2>
+    <div id="gc"></div>
+  </div>
+
+  <div class="card">
+    <h2>🟢 Sprint</h2>
+    <div id="sprint"></div>
+  </div>
+
+  <div class="card">
+    <h2>🔴 Berg</h2>
+    <div id="mountain"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
