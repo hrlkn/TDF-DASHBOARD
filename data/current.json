@@ -1,0 +1,10 @@
+{
+  "stage": 1,
+  "route": "Barcelona > Barcelona",
+  "gc": [
+    { "rank": 1, "name": "Rider A", "time": "0:00" },
+    { "rank": 2, "name": "Rider B", "time": "+0:05" }
+  ],
+  "sprint": "Rider A",
+  "mountain": "Rider C"
+}
