@@ -1,0 +1,11 @@
+{
+  "stage": 1,
+  "route": "Florenz > Rimini",
+  "gc": [
+    { "rank": 1, "name": "Tadej Pogacar", "time": "0:00" },
+    { "rank": 2, "name": "Jonas Vingegaard", "time": "+0:08" },
+    { "rank": 3, "name": "Remco Evenepoel", "time": "+0:12" }
+  ],
+  "sprint": "Jasper Philipsen",
+  "mountain": "Richard Carapaz"
+}
